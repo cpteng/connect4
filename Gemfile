@@ -33,3 +33,5 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+ruby '2.1.8', :engine => 'jruby', :engine_version => '9.0.0.0'
