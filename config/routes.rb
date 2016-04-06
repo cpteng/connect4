@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   root 'application#index'
+
+  get 'pvc/index'
   get 'pvp/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
